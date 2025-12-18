@@ -15,6 +15,14 @@ color: #e5e7eb;
 line-height: 1.6;
 }
 
+.avatar {
+  width: 140px;        
+  height: 140px;      
+  border-radius: 50%;  
+  object-fit: cover; 
+  margin-bottom: 1rem;
+}
+
 
 .container {
 max-width: 900px;
