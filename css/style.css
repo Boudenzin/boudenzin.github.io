@@ -7,6 +7,40 @@ padding: 0;
 box-sizing: border-box;
 }
 
+.topbar {
+  position: sticky;
+  top: 0;
+  background: #0f172a;
+  border-bottom: 1px solid #020617;
+  z-index: 1000;
+}
+
+.topbar-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: 600;
+  color: #e5e7eb;
+}
+
+.nav-links a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: #94a3b8;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover {
+  color: #38bdf8;
+}
+
 
 body {
 font-family: 'Inter', sans-serif;
